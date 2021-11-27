@@ -13,9 +13,11 @@ namespace IRHL.MVC.Models
         public int TeamID { get; set; }
 
         //Team Name
+        [Display(Name = "Team Name")]
         public string TeamName { get; set; }
 
         //Team Captain
+        [Display(Name = "Team Captain")]
         public string TeamCaptain { get; set; }
 
         //Wins
@@ -25,18 +27,23 @@ namespace IRHL.MVC.Models
         public int Losses { get; set; }
 
         //OTL
+        [Display(Name = "OTL")]
         public int OTLosses { get; set; }
 
         //Goals For
+        [Display(Name = "GF")]
         public int GoalsFor { get; set; }
 
         //Goals Against
+        [Display(Name = "GA")]
         public int GoalsAgainst { get; set; }
 
         //DIFF
+        [Display(Name = "DIFF")]
         public int GoalDifference { get; set; }
 
         //Looking for player?
+        [Display(Name = "Need Player?")]
         public bool NeedPlayer { get; set; }
 
         //List of players
