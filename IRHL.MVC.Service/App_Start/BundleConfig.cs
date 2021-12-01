@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace IRHL.MVC
+namespace IRHL.MVC.Service
 {
     public class BundleConfig
     {
@@ -23,7 +23,7 @@ namespace IRHL.MVC
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-darkly.css",
+                      "~/Content/bootstrap.css",
                       "~/Content/site.css"));
         }
     }

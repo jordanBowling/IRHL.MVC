@@ -40,7 +40,12 @@ namespace IRHL.MVC.Models
 
         //DIFF
         [Display(Name = "DIFF")]
-        public int GoalDifference { get; set; }
+        public int GoalDifference 
+        { get
+            {
+                return GoalsFor - GoalsAgainst;   
+            }
+        }
 
         //Looking for player?
         [Display(Name = "Need Player?")]
@@ -52,5 +57,15 @@ namespace IRHL.MVC.Models
         public int Streak { get; set; }
 
         //PIM (stretch)
+
+        //Nav for many to many
+        //public virtual ICollection<Game> ListOfGames { get; set; }
+        //public virtual ICollection<Player> ListOfPlayers { get; set; }
+
+        //public Team()
+        //{
+        //    ListOfGames = new HashSet<Game>();
+        //    ListOfPlayers = new HashSet<Player>();
+        //}
     }
 }

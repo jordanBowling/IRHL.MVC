@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRHL.MVC", "IRHL.MVC\IRHL.MVC.csproj", "{FFAB50D8-3430-4F73-A91D-40B6D86B7070}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRHL.MVC.Service", "IRHL.MVC.Service\IRHL.MVC.Service.csproj", "{BB7C4D64-6F04-414A-B8A4-538A24CE5EBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FFAB50D8-3430-4F73-A91D-40B6D86B7070}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFAB50D8-3430-4F73-A91D-40B6D86B7070}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFAB50D8-3430-4F73-A91D-40B6D86B7070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB7C4D64-6F04-414A-B8A4-538A24CE5EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB7C4D64-6F04-414A-B8A4-538A24CE5EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB7C4D64-6F04-414A-B8A4-538A24CE5EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB7C4D64-6F04-414A-B8A4-538A24CE5EBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

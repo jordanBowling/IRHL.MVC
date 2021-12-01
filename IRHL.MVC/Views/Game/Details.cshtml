@@ -1,0 +1,66 @@
+﻿@model IRHL.MVC.Models.Game
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Game</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamOneID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamOneID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamOneGoals)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamOneGoals)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamOnePIM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamOnePIM)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamTwoID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamTwoID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamTwoGoals)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamTwoGoals)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamTwoPIM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamTwoPIM)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.GameID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -31,5 +31,8 @@ namespace IRHL.MVC.Models
         }
 
         public DbSet<IRHL.MVC.Models.Team> Teams { get; set; }
+        public DbSet<IRHL.MVC.Models.Player> Players { get; set; }
+        public DbSet<IRHL.MVC.Models.Game> Games { get; set; }
+
     }
 }

@@ -13,11 +13,16 @@ namespace IRHL.MVC.Models
         public int PlayerID { get; set; }
 
         //FK
-        [ForeignKey(nameof(TeamNavigation))]
+        //[ForeignKey("Team")]
         public int TeamID { get; set; }
 
-        //Nav Prop
-        public virtual Team TeamNavigation { get; set; }
+        ////Nav Prop
+        //public virtual ICollection<Team> ListOfTeams { get; set; }
+
+        //public Player()
+        //{
+        //    ListOfTeams = new HashSet<Team>();
+        //}
 
 
         public string FirstName { get; set; }
